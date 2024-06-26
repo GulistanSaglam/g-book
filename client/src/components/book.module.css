@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 200px;
+    height: 300px;
+}
+
+.up img{
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.down{
+ display: flex;
+ flex-direction: column;
+ gap: 0.25rem;
+}
+.down h3, span{
+    color:rgb(85, 85, 85);
+}
+
+@media(max-width: 1024px) {
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap:0.5rem;
+        width: 100%;
+        height: 300px;
+    }
+    
+    .up img{
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+   
+ }

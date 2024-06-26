@@ -1,0 +1,20 @@
+.container{
+    padding: 1rem;
+    border:none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border-top: 1px solid gray;
+    position: absolute;
+    margin-top: auto;
+    width:100%;
+    
+}
+
+.container p{
+    color:rgb(85,85,85);
+    font-weight: bold;
+    font-style: italic;
+}

@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+    gap: 2rem;
+    height: auto;
+}
+
+.container h2{
+    font-style: italic;
+    color:rgb(85, 85, 85);
+    text-align: center;
+}
+
+.container form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.title{
+    padding: 0.5rem;
+}
+
+.buttons{
+    display: flex;
+    gap:1rem;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 4rem;
+}
+.container button{
+    width: fit-content;
+    padding: 0.5rem 3rem;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+.container button:hover{
+    background-color: rgb(85, 85, 85);
+    border: 1px solid gray;
+    color: white;
+}

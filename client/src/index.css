@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    width: 67%;
+    min-height: 111.5vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+html{
+    padding: 0;
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #ddd;
+    border-radius: 10px;
+  }
+  
+
+@media(max-width: 1024px) {
+
+   body{
+    width: 100%;
+   }
+    
+}
